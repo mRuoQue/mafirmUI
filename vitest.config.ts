@@ -9,7 +9,7 @@ export default defineConfig({
     //   interopDefault: true,
     // },
     globals: true,
-    environment: "jsdom",
+    environment: "jsdom", // jsdmon v27+ 不兼容require导入方式 会报错
     include: ["packages/**/*.test.ts"],
     setupFiles: ["./vitest.setup.ts"],
 

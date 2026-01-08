@@ -1,3 +1,3 @@
-import SmButton from "./components/Button/index";
+import SmButton from "./components/button/index";
 
 export default [SmButton];

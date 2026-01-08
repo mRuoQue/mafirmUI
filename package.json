@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "test": "vitest",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
     "@smallma-ui/components": "workspace:*",
@@ -29,6 +32,7 @@
     "postcss-for": "^2.1.1",
     "postcss-nested": "^7.0.2",
     "vite": "^7.3.1",
+    "vitepress": "^1.6.4",
     "vitest": "^4.0.16"
   }
 }

@@ -23,6 +23,8 @@
   "devDependencies": {
     "@testing-library/vue": "^8.1.0",
     "@vitejs/plugin-vue": "^6.0.3",
+    "@vitepress-demo-preview/component": "^2.6.1",
+    "@vitepress-demo-preview/plugin": "^1.4.1",
     "@vue/test-utils": "^2.4.6",
     "jsdom": "^25.0.0",
     "patch-package": "^8.0.1",

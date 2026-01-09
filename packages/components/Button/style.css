@@ -39,9 +39,7 @@
   padding: 8px 15px;
   font-size: var(--sm-font-size-base);
   border-radius: var(--sm-border-radius-base);
-  & + & {
-    margin-left: 12px;
-  }
+  margin: 4px ;
   &:hover,
   &:focus {
     color: var(--sm-button-hover-text-color);

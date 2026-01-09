@@ -1,5 +1,9 @@
 import { defineConfig } from "vitepress";
 import { resolve } from "path";
+import {
+  containerPreview,
+  componentPreview,
+} from "@vitepress-demo-preview/plugin";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   vite: {
@@ -8,6 +12,13 @@ export default defineConfig({
         "@": resolve(__dirname, "../../packages"),
         "@components": resolve(__dirname, "../../packages/components"),
       },
+    },
+  },
+  // 组件预览显示代码
+  markdown: {
+    config: (md) => {
+      md.use(containerPreview);
+      md.use(componentPreview);
     },
   },
   title: "smallUI",

@@ -1,6 +1,8 @@
 import Button from "./button.vue";
-import { installComponent } from "@smallma-ui/utils";
-
-export const SmButton = installComponent(Button);
+// @ts-ignore
+import { installComponent } from "../../utils";
+const SmButton = installComponent(Button);
 
 export default SmButton;
+
+export * from "./types";

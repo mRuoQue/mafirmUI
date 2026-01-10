@@ -1,6 +1,6 @@
 // export * from "./components/index"
 import components from "./components";
-// import "./styles/index.css";
+import "./styles/index.css";
 export const install: any = (app: any) => {
   if (install.installed) {
     return;

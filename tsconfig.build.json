@@ -1,0 +1,10 @@
+{
+    "include": ["packages/index.ts","packages/components/**/*","packages/hooks/**/*"],
+
+    "compilerOptions": {
+        "types": ["vitest/globals"],
+        "paths": {
+            "@/*":["./packages/*"]
+        }
+    }
+}

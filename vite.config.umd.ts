@@ -9,8 +9,8 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, "packages/index.ts"),
       // 全局变量
-      name: "SmallmaUI",
-      fileName: "smallmaUI",
+      name: "mafirmUI",
+      fileName: "mafirmUI",
       formats: ["umd"],
     },
     rollupOptions: {

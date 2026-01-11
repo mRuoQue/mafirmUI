@@ -36,7 +36,7 @@ import {
   withScopeId
 } from "./chunk-EZ7BNVI3.js";
 
-// node_modules/.pnpm/@vitepress-demo-preview+component@2.6.1_vitepress@1.6.4_@algolia+client-search@5.46.2_@types+_syyaqjffjenskg5heshvoan66i/node_modules/@vitepress-demo-preview/component/dist/preview-component.js
+// node_modules/.pnpm/@vitepress-demo-preview+component@2.6.1_vitepress@1.6.4_@algolia+client-search@5.46.2_@types+_bspcei24v3fm45oi4bgxdcak5m/node_modules/@vitepress-demo-preview/component/dist/preview-component.js
 var Qo = Object.defineProperty;
 var Jo = (e, t, o) => t in e ? Qo(e, t, { enumerable: true, configurable: true, writable: true, value: o }) : e[t] = o;
 var Z = (e, t, o) => (Jo(e, typeof t != "symbol" ? t + "" : t, o), o);

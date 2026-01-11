@@ -1,3 +1,3 @@
-declare const SmButton: any;
-export default SmButton;
+declare const MfButton: any;
+export default MfButton;
 export * from './types';

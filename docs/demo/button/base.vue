@@ -1,15 +1,15 @@
 <script setup>
 // 这里使用了类型别名，请按照自己项目的配置引入组件即可
-import SmButton from "@/components/button/button.vue";
+import MfButton from "@/components/button/button.vue";
 </script>
 
 <template>
-  <SmButton type="primary">primary </SmButton>
-  <SmButton autofocus type="primary">primary autofocus </SmButton>
+  <MfButton type="primary">primary </MfButton>
+  <MfButton autofocus type="primary">primary autofocus </MfButton>
 
-  <SmButton plain type="primary">primary plain </SmButton>
+  <MfButton plain type="primary">primary plain </MfButton>
 
-  <SmButton type="success">success </SmButton>
-  <SmButton type="danger">danger</SmButton>
-  <SmButton round type="info">danger round</SmButton>
+  <MfButton type="success">success </MfButton>
+  <MfButton type="danger">danger</MfButton>
+  <MfButton round type="info">danger round</MfButton>
 </template>

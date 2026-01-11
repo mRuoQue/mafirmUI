@@ -1,11 +1,11 @@
 {
-  "name": "smallma-ui",
+  "name": "mafirm-ui",
   "version": "1.0.0",
   "type": "module",
   "description": "vue3 ui library",
-  "main": "./dist/umd/smallmaUI.umd.js",
-  "module": "./dist/es/smallmaUI.es.js",
-  "types": "./dsit/types/smallmaUI.d.ts",
+  "main": "./dist/umd/index.umd.js",
+  "module": "./dist/es/index.es.js",
+  "types": "./dsit/types/index.d.ts",
   "files": [
     "dsit"
   ],
@@ -28,9 +28,9 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
-    "@smallma-ui/components": "workspace:*",
-    "@smallma-ui/hooks": "workspace:*",
-    "@smallma-ui/utils": "workspace:*",
+    "@mafirm-ui/components": "workspace:*",
+    "@mafirm-ui/hooks": "workspace:*",
+    "@mafirm-ui/utils": "workspace:*",
     "vue": "^3.5.26"
   },
   "keywords": [],

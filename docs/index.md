@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "SMUI"
   text: "搭建属于自己的UI库，学习工作成就满满"
-  tagline: SmallmaUI Vue 3.0 的桌面端组件库
+  tagline: mafirmUI Vue 3.0 的桌面端组件库
   actions:
     - theme: brand
       text: 快速开始

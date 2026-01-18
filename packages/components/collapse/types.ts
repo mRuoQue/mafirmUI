@@ -9,6 +9,6 @@ export interface CollapseItemProps {
   title?: string;
   name?: string;
   disabled?: boolean;
-  isActive: boolean;
+  isActive?: boolean;
   onClick?: (name: string) => void;
 }

@@ -1,13 +1,13 @@
 ---
-title：  Switch
-description：这是Switch使用文档
+title：  Collapse
+description：这是Collapse使用文档
 ---
 
-# Switch 
-  开关组件
+# Collapse 
+  折叠面板组件
 
 ## 基础用法
-<preview path="../demo/switch/index.vue" title="基础用法" description="Switch组件基本用法"></preview>
+<preview path="../demo/collapse/index.vue" title="基础用法" description="Collapse组件基本用法"></preview>
 
 ## 组件属性
 | 参数                  | 说明                                                               | 类型                      | 可选值 | 默认值 |

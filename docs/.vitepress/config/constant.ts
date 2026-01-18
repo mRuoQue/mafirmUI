@@ -52,6 +52,10 @@ export const other: any = {
       link: "/components/switch",
     },
     {
+      text: "Collapse",
+      link: "/components/collapse",
+    },
+    {
       text: "Upload",
     },
   ],
